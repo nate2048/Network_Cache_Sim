@@ -71,7 +71,7 @@ void reset();
 
 int main() {
 
-    ofstream output("graph_data/C2.csv");
+    ofstream output("output.csv");
 
     int selection;
     cout << "\nWelcome to the Network Cache Simulator!\n\nHow would you like to proceed - " << endl;
